@@ -17,7 +17,7 @@ const alive = async (m, Matrix) => {
   const str = `*🤖 Bot Status: Online*\n*⏳ Uptime: ${timeString}*`;
 
   await Matrix.sendMessage(m.from, {
-    image: fs.readFileSync('./media/khan.jpg'),
+    image: fs.readFileSync('./media/Rox.jpg'),
     caption: str,
     contextInfo: {
       mentionedJid: [m.sender],
@@ -25,7 +25,7 @@ const alive = async (m, Matrix) => {
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
         newsletterJid: '120363354023106228@newsletter',
-        newsletterName: "JawadTechX",
+        newsletterName: "LEGEND-WASEEM",
         serverMessageId: 143
       }
     }
