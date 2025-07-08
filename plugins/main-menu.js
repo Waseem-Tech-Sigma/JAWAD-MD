@@ -219,11 +219,11 @@ const menu = async (m, Matrix) => {
         menuImage = Buffer.from(response.data, 'binary');
       } catch (error) {
         console.error('Error fetching menu image from URL, falling back to local image:', error);
-        menuImage = fs.readFileSync('./media/khan.jpg');
+        menuImage = fs.readFileSync('./media/Rox.jpg');
       }
     } else {
       // Use local image if MENU_IMAGE is not configured
-      menuImage = fs.readFileSync('./media/khan.jpg');
+      menuImage = fs.readFileSync('./media/Rox.jpg');
     }
 
 await Matrix.sendMessage(m.from, {
@@ -235,7 +235,7 @@ await Matrix.sendMessage(m.from, {
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: '120363354023106228@newsletter',
-      newsletterName: "JawadTechX",
+      newsletterName: "LEGEND-WASEEM",
       serverMessageId: 143
     }
   }
