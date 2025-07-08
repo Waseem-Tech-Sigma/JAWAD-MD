@@ -1,16 +1,16 @@
 {
-  "name": "JAWAD-MD",
+  "name": "ROX-LEDEND",
   "version": "10.8.1",
-  "description": "JAWAD-XMD latest multi device whatsapp bot",
+  "description": "ROX-LEGEND•latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name JAWAD-XMD",
-    "stop": "pm2 stop JAWAD-XMD",
-    "restart": "pm2 restart JAWAD-XMD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name ROX-LEDEND",
+    "stop": "pm2 stop ROX-LEDEND",
+    "restart": "pm2 restart ROX-LEDEND"
   },
-  "keywords": ["jawad-md", "whatsapp-bot", "whatsapp md bot"],
-  "author": "JawadTechX",
+  "keywords": ["rox-legend", "whatsapp-bot", "whatsapp rox bot"],
+  "author": "LEGEND WASEEM",
   "license": "ISC",
   "dependencies": {
     "@whiskeysockets/baileys": "github:gatanina-li/baileys",
