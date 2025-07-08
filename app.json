@@ -1,9 +1,9 @@
 {
-  "name": "JAWAD-MD",
-  "description": "I am JAWAD-MD WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
-  "logo": "https://files.catbox.moe/neni8p.jpg",
+  "name": "ROX-LEDEND",
+  "description": "I am ROX-LEDEND WhatsApp MultiDevice Bot built in NodeJs to enhance the experience.",
+  "logo": "https://i.postimg.cc/GmZgP9k0/openart-image-pqw8-Zgtv-1751900699391-raw.jpg",
   "keywords": ["JAWAD-MD"],
-  "repository": "https://github.com/JawadTechXD/JAWAD-MD",
+  "repository": "https://github.com/Waseem-Tech-Sigma/ROX-LEGEND",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
@@ -19,17 +19,17 @@
     "BOT_NAME": {
       "description": "change bot name what you want!",
       "required": false,
-      "value": "JAWAD-MD"
+      "value": "ROX-LEDEND"
     },
     "MENU_IMAGE": {
       "description": "change menu image if want otherwise use default",
       "required": false,
-      "value": "https://files.catbox.moe/7l1tt5.jpg"
+      "value": "https://i.postimg.cc/GmZgP9k0/openart-image-pqw8-Zgtv-1751900699391-raw.jpg"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and etc",
       "required": false,
-      "value": "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX"
+      "value": "© ᴘᴏᴡᴇʀᴇᴅ ʙʏ LEGEND-WASEEM"
     },
     "ANTI_DELETE": {
       "description": "set path for antidelete for same chat set to same",
@@ -55,17 +55,17 @@
     "STATUS_READ_MSG": {
       "description": "set your status reply message",
       "required": false,
-      "value": "*Status Seen By JAWAD-MD 👻🤍*"
+      "value": "*Status Seen By ROX👻🤍*"
     },
     "OWNER_NAME": {
       "description": "set owner name",
-      "required": false,
-      "value": "JAWAD-MD"
+      "required": true,
+      "value": "LEGEND-WASEEM"
     },
     "OWNER_NUMBER": {
       "description": "set your owner number",
       "required": false,
-      "value": "923427582273"
+      "value": "923458136245"
     },
     "AUTO_READ": {
       "description": "make it true if you want bot to read message",
