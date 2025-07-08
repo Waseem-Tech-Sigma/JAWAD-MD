@@ -6,7 +6,7 @@ const repo = async (m, gss) => {
   const cmd = m.body.startsWith(prefix) ? m.body.slice(prefix.length).split(" ")[0].toLowerCase() : "";
 
   if (["repo", "sc", "script", "info"].includes(cmd)) {
-    const githubRepoURL = "https://github.com/JawadTechXD/JAWAD-MD";
+    const githubRepoURL = "https://github.com/Waseem-Tech-Sigma/ROX-LEDEND";
 
     try {
       const match = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -24,7 +24,7 @@ const repo = async (m, gss) => {
       await gss.sendMessage(
         m.from,
         {
-          image: { url: "https://files.catbox.moe/juroe8.jpg" },
+          image: { url: "https://i.postimg.cc/GmZgP9k0/openart-image-pqw8-Zgtv-1751900699391-raw.jpg" },
           caption: formattedInfo,
           contextInfo: {
             mentionedJid: [m.sender],
@@ -32,7 +32,7 @@ const repo = async (m, gss) => {
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
               newsletterJid: "120363354023106228@newsletter",
-              newsletterName: "JawadTechX",
+              newsletterName: "WASEEM-TechX",
               serverMessageId: 143,
             },
           },
