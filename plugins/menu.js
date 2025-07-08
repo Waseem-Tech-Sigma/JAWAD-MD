@@ -107,10 +107,10 @@ const menu = async (m, Matrix) => {
           return Buffer.from(response.data, 'binary');
         } catch (error) {
           console.error('Error fetching menu image from URL, falling back to local image:', error);
-          return fs.readFileSync('./media/khan.jpg');
+          return fs.readFileSync('./media/Rox.jpg');
         }
       } else {
-        return fs.readFileSync('./media/khan.jpg');
+        return fs.readFileSync('./media/Rox.jpg');
       }
     };
 
@@ -125,7 +125,7 @@ const menu = async (m, Matrix) => {
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
           newsletterJid: '120363354023106228@newsletter',
-          newsletterName: "JawadTechX",
+          newsletterName: "LEGEND-WASEEM",
           serverMessageId: 143
         }
       }
@@ -337,7 +337,7 @@ ${menuResponse}
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
             newsletterJid: '120363354023106228@newsletter',
-            newsletterName: "JawadTechX",
+            newsletterName: "LEGEND-WASEEM",
             serverMessageId: 143
           }
         }
